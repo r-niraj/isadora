@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.horImageWrapper{
+    display: flex;
+    align-items: center;
+    margin: 0 4%;
+    column-gap: 20px;
+    margin-bottom:62px;
+}
+
+.horImageWrapper .left,
+.horImageWrapper .right{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.horImageWrapper .left p,
+.horImageWrapper .right p{
+    font-family: unbounded;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.left .imageContainer{
+    background-image: url(../Floor_Plans/diag1.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right .imageContainer{
+    background-image: url(../Floor_Plans/diag2.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.horImageWrapper.secondRow .left .imageContainer{
+    background-image: url(../Floor_Plans/diag3.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.horImageWrapper.secondRow .right .imageContainer{
+    background-image: url(../Floor_Plans/diag4.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media screen and (max-width:920px){
+    .horImageWrapper{
+        flex-direction: column;
+    }
+    .horImageWrapper .left{
+        margin-bottom: 50px;
+    }
+    .horImageWrapper .left, 
+    .horImageWrapper .right{
+        width: 100%;
+    }
+    .horImageWrapper .left p, .horImageWrapper .right p {
+        margin-bottom: 13px;
+    }
+
+    .left .imageContainer,.right .imageContainer,
+    .horImageWrapper.secondRow .left .imageContainer,
+    .horImageWrapper.secondRow .right .imageContainer{
+        height: 300px;
+    }
+
+
+}

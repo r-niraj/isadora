@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Unbounded:wght@200;300;400;500;600&display=swap');
+
+header{
+    background: #ffffff;
+    padding: 9px 0;
+    z-index: 9 !important;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4%;
+}
+
+.header .leftSection{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.leftSection .seperator{
+    height: 59px;
+    width: 1px;
+    background: #000;
+}
+
+.gaLogo img{
+    width: 100px;
+}
+
+.calissaLogo img{
+    width: 91px;
+}
+
+.header ul.navigation{
+    list-style-type: none;
+    display: flex;
+}
+
+.header ul.navigation li{
+    margin: 0 12px;
+    font-family: 'open sans';
+    font-size: 18px;
+    padding: 5px 14px;
+    cursor: pointer;
+}
+
+.header ul.navigation li.menuItem.active{
+    background: #BFDDCF;
+    padding: 5px 14px;
+    border-radius: 50px;
+}
+.header ul.navigation li.menuItem.active a{
+    text-decoration: none;
+    color: #000;
+}
+.header ul.navigation li.menuItem:hover{
+    background: #BFDDCF;
+    border-radius: 50px;
+}
+
+.header .rightSection{
+    display: flex;
+    align-items: center;
+}
+
+.header .hamburger{
+    background-image: url(../img/ham.png);
+    width: 36px;
+    height: 27px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-top: 6px;
+    transition: 0.2s all ease-in-out;
+}
+
+header.active__menu{
+    position: sticky;
+    top: 0;
+    transform: translateY(0);
+    transition: 0.5s all cubic-bezier(0.68, 0.16, 0.01, 0.8);
+}
+
+
+/* 
+.parentWrapperBoud{
+    width: 1366px;
+    margin: 0 auto;
+    position: relative;
+} */
+
+@media only screen and (min-width: 1920){
+    .parentWrapperBoud{
+        width:1366px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .tagline-wrapper{
+        width: max-content !important;
+        margin:0 auto !important;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .parentWrapperBoud{
+        width: 1336px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .tagline-wrapper{
+        width: max-content !important;
+        margin:0 auto !important;
+    }
+}

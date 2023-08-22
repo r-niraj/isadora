@@ -1,0 +1,24 @@
+.textContenWarpper{
+    margin: 65px 4%;
+}
+.titleTxt{
+    font-size: 36px;
+    font-family: unbounded;
+    font-weight: 100;
+}.titleTxtBold{
+    font-size: 36px;
+    font-family: unbounded;
+    font-weight: 300;
+}
+.descrTxt {
+    width: 75%;
+    padding: 35px 0;
+    line-height: 24px;
+    font-family: 'open sans';
+}
+
+.divider{
+    margin: 0 4%;
+    border:1px solid #898989;
+    margin-bottom: 41px;
+}

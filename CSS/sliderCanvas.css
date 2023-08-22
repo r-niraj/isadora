@@ -1,0 +1,111 @@
+.sliderCanvas{
+    width: 100%;
+    height: calc(100vh / 2.5);
+    background: url('../Location/1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.sliderCanvas p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+}
+
+.sliderCanvasFeature{
+    width: 100%;
+    height: calc(100vh / 2.5);
+    background: url('../Features/1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.sliderCanvasFeature p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.sliderCanvasSitePlans{
+    width: 100%;
+    height: calc(100vh / 2.5);
+    background: url('../Site_Plan/1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.sliderCanvasSitePlans p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.sliderCanvasFloorPlans{
+    width: 100%;
+    height: calc(100vh / 2.5);
+    background: url('../Floor_Plans/1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.sliderCanvasFloorPlans p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.sliderCanvasSpecs{
+    width: 100%;
+    height: calc(100vh / 2.5);
+    background: url('../Specifications/1.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.sliderCanvasSpecs p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.sliderCanvasGallery{
+    width: 100%;
+    height: calc(100vh / 2.5);
+    background: url('../Gallery/2.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.sliderCanvasGallery p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+}

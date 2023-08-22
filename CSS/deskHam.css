@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Unbounded:wght@200;300;400;500;600&display=swap');
+
+.HamMenuWrapper{
+    width: 30%;
+    height: 100vh;
+    background: #BFDDCF;
+    position: fixed;
+    right: 0;
+    padding: 20px;
+    color: #fff;
+    z-index: 12;
+    transform: translateX(100%);
+    transition: 0.8s all cubic-bezier(0.81, -0.14, 0, 1.33);
+}
+
+.fa-times-thin{
+    right: 4%;
+    color: #000;
+    position: absolute;
+    cursor: pointer;
+}
+
+.fa-times-thin:before {
+	content: '\00d7';
+}
+
+.menuItems{
+    padding: 30px;
+    color: #000;
+    margin-top: 30px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menuItems ul{
+    list-style-type: none;
+    font-family: 'Unbounded' !important;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.menuItems ul li{
+    margin: 2px 0;
+    transition: 0.2s all ease-in-out;
+    padding-left: 5px;
+}
+
+.menuItems>ul:first-child>li:hover{
+    border-left: 3px solid #000;
+    padding-left: 15px;
+}
+
+.menuItems ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.leftBlurred{
+    width: 70%;
+    height: 100vh;
+    position: fixed;
+    right: 100%;
+    z-index: 12;
+    transform: translateX(100%);
+    background-color: rgba(0,0,0, 0.4);
+    display: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.social-media {
+    display: flex;
+}
+
+.phoneNsocialBlock .social-media div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social-media div i{
+    font-size: 16px;
+}
+
+.phoneNsocialBlock img{
+    margin: -4px 7px;
+    width: 21px;
+}
+.phoneTextSidebar{
+    font-size: 22px;
+    margin-left: 10px;
+    font-weight: 200;
+    font-family: 'open sans';
+}
+
+.socialBlock{
+    margin-top: 18px;
+}
+
+.addressCaption{
+    flex-basis: 40%;
+    background: #fff;
+    border-radius: 50px;
+}
+
+.mapContainer .wrapperBlock{
+    display: flex;
+    column-gap: 30px;
+}
+
+.addCapBlock p{
+    font-family: 'open sans';
+    font-size: 18px;
+}
+
+.addressCaption>div:first-child{
+    padding-top: 50px;
+}
+
+.addressCaption>div:last-child{
+    padding-bottom: 40px;
+}
+
+.addressCaption>div{
+    padding: 13px 4px 0 34px
+}
+
+
+@media only screen and (max-width:920px){
+   
+    .header{
+     margin: 0 4%;
+    }
+ 
+    .gaLogo img{
+     width: 100px;
+    }
+    .calissaLogo img{
+     width: 80px;
+    }
+    .header .leftSection{
+     column-gap: 10px;
+    }
+ 
+    .header ul.navigation li.menuItem.active{
+     display: none;
+    }
+ 
+    .HamMenuWrapper{
+     width: 100%;
+    }
+
+    .HamMenuWrapper i.closeIco{
+        display: none;
+    }
+
+    .stickyFooter.mobile {
+        display: flex;
+        background: #EAECE3;
+        justify-content: space-around;
+        padding: 15px 0;
+        position: sticky;
+        bottom: -1px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        z-index: 12;
+        transition: 0.3s all ease-in-out;
+        font-family: 'open sans';
+    }
+
+    span.phoneTextSidebar a{
+        color: #000 !important;
+        text-decoration: none;
+    }
+    .stickyFooter.mobile .item {
+        font-size: 16px;
+    }
+
+    .stickyFooter.mobile .fa, 
+    .stickyFooter.mobile .fa-brands {
+        margin-right: 10px;
+    }
+
+    .menuItems{
+        height: calc(100vh - 16%);
+        font-family: 'open sans';
+    } 
+    .menuItems ul{
+        margin-top: 13%;
+    }
+    .menuItems ul.social-media{
+        margin-top: 0;
+    }
+    .menuItems ul, 
+    .menuItems .phoneNsocialBlock{
+        padding: 20px;
+    }
+    .menuItems,.HamMenuWrapper{
+        padding: 0;
+    }
+
+    header{
+        filter: none !important;
+        z-index: 99 !important;
+    }
+    .menuItems ul li a{
+        font-weight: 300;
+    }
+
+    .menuItems .menuList{
+        height: calc(100vh - 41%);
+    }
+
+    .contentWrappper{
+        height: min-content;
+    }
+
+    .zsiq_floatmain.zsiq_theme1.siq_bR{
+        display: none !important;
+    }
+
+    .titleTxt,.titleTxtBold {
+        font-size: 30px !important;
+    }
+
+    .titleTxtBold span{
+        display: block;
+    }
+    .childOne .descrTxt,
+    .textContenWarpper .descrTxt{
+        width: 100%;
+    }
+    .mapBlock{
+        width: 100%;
+        height: 316px !important;
+        border-radius: 20px !important;
+    }
+    
+    .addressCaption{
+        border-radius: 20px !important;
+    }
+    
+    .mapContainer .wrapperBlock{
+        flex-direction: column-reverse;
+        row-gap: 16px;
+     }
+
+    .embedMap{
+        height: 769px !important;
+    }
+
+    .addCapBlock p{
+        font-size: 16px;
+    }
+ }
+
+
+ .zsiq_theme1.zsiq_floatmain{
+    z-index: 2 !important;
+ }

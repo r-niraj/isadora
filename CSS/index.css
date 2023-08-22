@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Unbounded:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.contentWrappper{
+    width: 100%;
+    height: 100vh;
+}
+
+.bannerSection{
+    width: 100%;
+    height: calc(100vh - 79px);
+    display: flex;
+    align-items: flex-start;
+    column-gap: 15px;
+}
+
+.bannerSection .leftImageSec {
+    height: calc(100vh - 92px + 15px);
+    flex-basis: 58%;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+}
+
+.bannerSection .leftImageSec .showAll{
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+    background-color: #ffffff8f;
+    border-radius: 40px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-family: "open sans";
+    color: #000;
+}
+
+.fa-solid.fa-arrow-right {
+    transform: rotate(-45deg);
+    margin-left: 10px;
+}
+
+.bannerSection .RightImageSec{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: calc(100vh - 92px);
+    row-gap: 15px;
+    box-sizing: border-box;
+}
+
+.bannerSection .topImageWrapper{
+    height: 50%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.bannerSection .bottomImageWrapper {
+    height: 50%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+
+.sixtyFortyWrapper{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 15px;
+    padding: 0 4%;
+    margin-bottom: 70px;
+    justify-content: space-between;
+}
+
+.sixtyFortyWrapper .childOne{
+    flex-basis: 58%;
+}
+
+.titleTxt{
+    font-size: 36px;
+    font-family: unbounded;
+    font-weight: 100;
+}
+
+.titleTxtLocation{
+    font-size: 16px;
+    font-family: unbounded;
+}
+
+.descr{
+    font-size: 16px;
+    font-family: 'open sans';
+}
+
+.sixtyFortyWrapper .childTwo{
+    flex-grow: 1;
+    padding-top: 80px;
+    width: 100%;
+}
+
+.childOne .descrTxt{
+    width: 75%;
+    padding: 35px 0;
+    line-height: 24px;
+    font-family: 'open sans';
+}
+
+.childOne p:nth-child(3){
+    padding-top: 0;
+}
+
+button.readMore{
+    background: #1E4F4C;
+    border: none;
+    color: #fff;
+    padding: 12px 19px;
+    border-radius: 27px;
+    cursor: pointer;
+    font-family: 'open sans';
+    display: none;
+}
+.curveDescrWrapper{
+    margin-bottom: 19px;
+}
+.curveDescrWrapper,
+.leftCurve,
+.rightCurve{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.leftCurve,
+.rightCurve{
+    justify-content: space-between;
+}
+.curveDescrWrapper{
+    justify-content: flex-end;
+}
+
+.leftCurve img,
+.rightCurve img{
+    width: 30px;
+}
+
+.curveDescrWrapper .leftCurve,
+.curveDescrWrapper .rightCurve{
+    column-gap: 36px;
+    border: 1px solid #C7CCB3;
+    background: #EAECE3;
+    padding: 5px 15px;
+    border-radius: 30px;
+    padding-right: 6px;
+    min-width: 263px;
+    font-family: 'open sans';
+}
+
+.imgIcoWrapper{
+    background: #fff;
+    padding: 3px 9px;
+    border-radius: 30px;
+}
+
+.seeAllLink{
+    display: flex;
+    justify-content: flex-start;
+    width: 256px;
+}
+.seeAllLink a{
+    color: #000;
+    cursor: pointer;
+    text-underline-offset: 8px;
+    font-family: 'open sans';
+}
+
+.swimmingPool{
+    padding:0 4%;
+    position: relative;
+    margin-bottom: 70px;
+}
+.swimmingPool .imgContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+}
+.swimmingPool .imgContainer .playIcon{
+    background-image: url(../Homepage/Images/play.png);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.swimmingPool .imgContainer video{
+    width: 100%;
+    height:450px;
+    object-fit: fill;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.swimmingPool .logo{
+    position: absolute;
+    bottom: 2%;
+    right: 7%;
+}
+
+.swimmingPool .logo img {
+    width: 150px;
+}
+
+.locationBlocks{
+    padding: 0 4%;
+    margin-bottom: 70px;
+}
+
+.locationBlocks .rowWrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    margin-bottom: 34px;
+}
+
+.locationBlocks .rowWrapper .item{
+    background: #EAECE3;
+    border: 1px solid #B0B59E;
+    padding: 15px 39px;
+    border-radius: 30px;
+    flex: 1 1 0;
+    line-height: 32px;
+}
+
+.embedMap {
+    width: 100%;
+    height: 650px;
+    background: #96B7A8;
+    margin-bottom: 70px;
+}
+
+
+.locationTxt i {
+    font-weight: 600;
+    transform: rotate(-45deg);
+    margin-left: 10px;
+}
+
+.mapContainer .txtBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: flex-end;
+}
+
+.mapContainer {
+    padding: 0 4%;
+    padding-top: 60px;
+    position: relative;
+}
+
+.mapContainer .locationTxt {
+    background: #EAECE3;
+    padding: 11px 17px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'open sans';
+}
+
+.txtBlock p,
+.finAssis p{
+    font-family: unbounded;
+    font-size: 20px;
+}
+
+
+.mapBlock {
+    width: 100%;
+    height: 450px;
+    background: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.finAssis{
+    margin: 0 4%;
+    text-align: center;
+    margin-bottom: 70px;
+    background: #EAECE3;
+    padding: 50px 77px;
+    border-radius: 45px;
+}
+
+.logoWrapper{
+    margin-top: 80px;
+    display: flex;
+    column-gap: 90px;
+    justify-content: space-between;
+}
+
+/* mobile UI */
+
+
+@media only screen and (max-width:920px){
+   .parentWrapperBoud{
+    width: 100%;
+   }
+
+   .contentWrappper .bannerSectionMob{
+    width: 100%;
+    height: 35vh;
+    background: url(../Homepage/Images/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+
+   .sixtyFortyWrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+   }
+
+  .childOne button.readMore{
+    display: none;
+   }
+
+   .curveDescrWrapper .leftCurve,
+   .curveDescrWrapper .rightCurve{
+    column-gap: 0;
+    border: 1px solid #C7CCB3;
+    background: #EAECE3;
+    padding: 0px 10px;
+    border-radius: 30px;
+    padding-right: 6px;
+    min-width: calc(100vw / 2.2);
+    font-family: 'open sans';
+    font-size: 14px;
+   }
+
+   .curveDescrWrapper{
+    justify-content: flex-start;
+   }
+   .leftCurve img, .rightCurve img{
+    width: 20px;
+   }
+   .imgIcoWrapper {
+        padding:6px;
+        margin: 3px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sixtyFortyWrapper .childTwo {
+        flex-grow: 1;
+        padding-top: 20px;
+    }
+
+    .parentWrapperBoud .sixtyFortyWrapper{
+        margin-bottom: 20px;
+    }
+    .swimmingPool .imgContainer {
+        border-radius: 15px;
+        height: 200px;
+    }
+    .swimmingPool .logo img{
+        width: 80px;
+    }
+
+    .locationBlocks .rowWrapper{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    
+    .locationBlocks .rowWrapper .item{
+        margin-bottom: 15px;
+        padding: 8px 20px;
+        border-radius: 20px;
+    }
+
+    .mapContainer{
+        padding-top: 8%;
+    }
+    .mapContainer .locationTxt{
+        display: none;
+    }
+  
+    .finAssis{
+        padding: 50px 34px;
+        border-radius: 20px;
+    }
+
+    .logoWrapper {
+        margin-top: 53px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logoWrapper .item img{
+        width: 120px;
+    }
+
+    .swimmingPool .imgContainer video{
+        height: auto;
+    }
+}

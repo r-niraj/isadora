@@ -68,6 +68,76 @@
 }
 
 
+.horImageWrapper.thirdRow .left .imageContainer{
+    background-image: url(../Floor_Plans/diag5.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.horImageWrapper.thirdRow .right .imageContainer{
+    background-image: url(../Floor_Plans/diag6.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.horImageWrapper.fourthRow .left .imageContainer{
+    background-image: url(../Floor_Plans/diag7.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.horImageWrapper.fourthRow .right .imageContainer{
+    background-image: url(../Floor_Plans/diag8.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.horImageWrapper.fifthRow .left .imageContainer{
+    background-image: url(../Floor_Plans/diag9.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.horImageWrapper.fifthRow .right .imageContainer{
+    background-image: url(../Floor_Plans/diag10.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.horImageWrapper.sixthRow .left .imageContainer{
+    background-image: url(../Floor_Plans/diag11.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media screen and (max-width:920px){
     .horImageWrapper{
         flex-direction: column;
@@ -81,6 +151,7 @@
     }
     .horImageWrapper .left p, .horImageWrapper .right p {
         margin-bottom: 13px;
+        font-size: 16px;
     }
 
     .left .imageContainer,.right .imageContainer,

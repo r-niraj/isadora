@@ -7,6 +7,19 @@
     align-items: center;
     justify-content: center;
     background-position: center;
+    position: relative;
+}
+.sliderCanvas .overlayDark,
+.sliderCanvasFeature .overlayDark,
+.sliderCanvasSitePlans .overlayDark,
+.sliderCanvasFloorPlans .overlayDark,
+.sliderCanvasSpecs .overlayDark,
+.sliderCanvasGallery .overlayDark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000003b;
+    z-index: 0;
 }
 
 .sliderCanvas p{
@@ -14,6 +27,8 @@
     font-family: Unbounded;
     color: #fff;
     font-weight: 300;
+    position: absolute;
+    z-index: 23;
 }
 
 .sliderCanvasFeature{
@@ -25,6 +40,7 @@
     align-items: center;
     justify-content: center;
     background-position: center;
+    position: relative;
 }
 
 .sliderCanvasFeature p{
@@ -32,6 +48,8 @@
     font-family: Unbounded;
     color: #fff;
     font-weight: 300;
+    position: absolute;
+    z-index: 23;
 }
 
 
@@ -44,6 +62,7 @@
     align-items: center;
     justify-content: center;
     background-position: center;
+    position: relative;
 }
 
 .sliderCanvasSitePlans p{
@@ -51,6 +70,8 @@
     font-family: Unbounded;
     color: #fff;
     font-weight: 300;
+    position: absolute;
+    z-index: 23;
 }
 
 
@@ -63,6 +84,7 @@
     align-items: center;
     justify-content: center;
     background-position: center;
+    position: relative;
 }
 
 .sliderCanvasFloorPlans p{
@@ -70,6 +92,8 @@
     font-family: Unbounded;
     color: #fff;
     font-weight: 300;
+    position: absolute;
+    z-index: 23;
 }
 
 
@@ -82,6 +106,7 @@
     align-items: center;
     justify-content: center;
     background-position: center;
+    position: relative;
 }
 
 .sliderCanvasSpecs p{
@@ -89,6 +114,8 @@
     font-family: Unbounded;
     color: #fff;
     font-weight: 300;
+    position: absolute;
+    z-index: 23;
 }
 
 
@@ -101,6 +128,7 @@
     align-items: center;
     justify-content: center;
     background-position: center;
+    position: relative;
 }
 
 .sliderCanvasGallery p{
@@ -108,4 +136,6 @@
     font-family: Unbounded;
     color: #fff;
     font-weight: 300;
+    position: absolute;
+    z-index: 23;
 }

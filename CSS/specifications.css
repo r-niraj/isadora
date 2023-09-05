@@ -18,7 +18,9 @@ section.sectionFirst{
     row-gap: 50px; */
 }
 
-.blocksWrapperRow:nth-child(2) .item,
+.blocksWrapperRow:nth-child(2) .item{
+    height: 439px;
+}
 .blocksWrapperRow:nth-child(3) .item{
     height: 362px;
 }

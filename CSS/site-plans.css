@@ -21,7 +21,11 @@ table.spdTable{
     border-spacing: 0;
     border-collapse: separate;
 }
-
+.reraTxt{
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 18px;
+}
 .spdTableImg{
     background-image: url(../Site_Plan/diagram.png);
     width: 100%;

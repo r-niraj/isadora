@@ -90,4 +90,11 @@ table.spdTable tbody tr:last-child td:first-child{
     .spdTableImg{
         background-size: 348px;
     }
+
+    .spdTableImg{
+        height: 186px;
+    }
+    .tableDiv{
+        border-radius: 30px !important;
+    }
 }

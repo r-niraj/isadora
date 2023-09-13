@@ -1,0 +1,34 @@
+@media only screen and (max-width: 920px){
+   .contentWrappper .bannerSectionMob.imgSlider{
+    width: 100%;
+    height: 35vh;
+    background-image: url("../SliderImages/1.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    animation: changeImg 25s linear infinite;
+   }
+
+   @keyframes changeImg {
+      0%{
+        background-image: url("../SliderImages/1.jpg");
+      }
+      20%{
+        background-image: url("../SliderImages/2.jpg");
+      }
+      40%{
+        background-image: url("../SliderImages/3.jpg");
+      }
+      60%{
+        background-image: url("../SliderImages/4.jpg");
+      }
+      80%{
+        background-image: url("../SliderImages/5.jpg");
+      }
+      100%{
+        background-image: url("../SliderImages/1.jpg");
+      }
+   }
+
+}

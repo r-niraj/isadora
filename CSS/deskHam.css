@@ -124,11 +124,11 @@
 }
 
 .addressCaption>div:first-child{
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .addressCaption>div:last-child{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .addressCaption>div{
@@ -261,6 +261,10 @@
 
     .addCapBlock p{
         font-size: 16px;
+    }
+
+    .addressCaption>div:last-child{
+        padding-bottom: 40px;
     }
  }
 

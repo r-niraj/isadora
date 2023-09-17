@@ -28,11 +28,12 @@ table.spdTable{
 }
 .spdTableImg{
     background-image: url(../Site_Plan/diagram.png);
-    width: 100%;
+    width: 95%;
     height: 499px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
 }
 
 table.spdTable,

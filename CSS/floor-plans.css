@@ -156,8 +156,17 @@
 
     .left .imageContainer,.right .imageContainer,
     .horImageWrapper.secondRow .left .imageContainer,
-    .horImageWrapper.secondRow .right .imageContainer{
+    .horImageWrapper.secondRow .right .imageContainer,
+    .horImageWrapper.thirdRow .right .imageContainer,
+    .horImageWrapper.thirdRow .left .imageContainer,
+    .horImageWrapper.fourthRow .left .imageContainer,
+    .horImageWrapper.fourthRow .right .imageContainer,
+    .horImageWrapper.fifthRow .left .imageContainer,
+    .horImageWrapper.fifthRow .right .imageContainer,
+    .horImageWrapper.sixthRow .left .imageContainer{
         height: 300px;
+        padding: 10px;
+        background-clip: content-box;
     }
 
 

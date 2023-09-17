@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
+    <style>
     .i4ewOd-pzNkMb-haAclf{
         display: none !important;
     }
-</style>
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +22,7 @@
 
     <link rel="shortcut icon" href="img/Waves-footer.png" type="image/x-icon">
     <link rel="stylesheet" href="CSS/sliderStyle.css">
-</head>
+    <script src="https://cdn.tailwindcss.com"></script>
 
 <body>
     <div class="leftBlurred"></div>
@@ -131,13 +131,71 @@
                 </div>
             </div>
         </div>
-        <div class="bannerSectionMob mobile js-reveal imgSlider">
+        <!-- <div class="bannerSectionMob mobile js-reveal imgSlider">
             <a href="Homepage/Images/4.jpg" data-lightbox="models" data-title="Image1">
-                <!-- <img src="Homepage/Images/4.jpg" alt="" style="width: 100%;height: 100%;object-fit: cover;border-bottom-right-radius: 30px;
-                border-top-right-radius: 30px;"> -->
                 <div class="showAll">View All <i class="fa-solid fa-arrow-right"></i></div>
             </a>
+        </div> -->
+
+       
+<div id="default-carousel" class="relative w-full bannerSectionMob mobile js-reveal" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="SliderImages/1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="SliderImages/2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="SliderImages/3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="SliderImages/4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="SliderImages/5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <!-- <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div> -->
+
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+
+    <a href="Homepage/Images/4.jpg" data-lightbox="models" data-title="Image1">
+        <div class="showAll">View All <i class="fa-solid fa-arrow-right"></i></div>
+    </a>
+</div>
+
+
+
         <div class="hidden" style="display: none;">
             <a href="Homepage/Images/2.jpg" data-lightbox="models" data-title="Image2">
                 <img src="Homepage/Images/2.jpg">
@@ -445,15 +503,16 @@
                     </div>
 
                     <div class="mapBlock">
-                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22373.80566876851!2d73.75876722467366!3d15.614525850216362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfeb5b3d7626e1%3A0xac29a63a0a85e88d!2sIsprava%20Estate%20de%20Frangipani!5e0!3m2!1sen!2sin!4v1692807807784!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1921.1383989435387!2d73.76671584577971!3d15.630241937350435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDM3JzQ2LjkiTiA3M8KwNDYnMDQuMyJF!5e0!3m2!1sen!2sin!4v1693374539003!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50218.18901795641!2d73.75553984026138!3d15.652469194496847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfeb5b3d7626e1%3A0xac29a63a0a85e88d!2sIsprava%20Estate%20de%20Frangipani!5e0!3m2!1sen!2sin!4v1694938659506!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
                     </div>
+                <div class="reraSection">
+                    <p>RERA NUMBER</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="parentWrapperBoud js-reveal">
+    <!-- <div class="parentWrapperBoud js-reveal">
         <div class="finAssis js-reveal">
             <p>Financial Assistance</p>
             <div class="logoWrapper desktop">
@@ -471,7 +530,7 @@
                 <div class="item" style="flex-grow: 1;"><img src="Homepage/Financial_logos/finacial5.png" alt=""></div>
             </div>
         </div>
-    </div>
+    </div> -->
     <footer id="toForm" class="js-reveal">
         <div class="parentWrapperBoud">
             <div class="content">
@@ -667,12 +726,11 @@
     <script src="JS/browserZoom.js"></script>
     <script src="JS/chatPlugin.js"></script>
     <script src="JS/jquery.scroll-reveal.js"></script>
-
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
     <script>
         $.fn.scrollReveal();
     </script>
 </body>
-
 </html>
 
 

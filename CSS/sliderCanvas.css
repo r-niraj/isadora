@@ -1,6 +1,6 @@
 .sliderCanvas{
     width: 100%;
-    height: calc(100vh / 2.5);
+    height: calc(100vh/1.4);
     background: url('../Location/1.jpg');
     background-size: cover;
     display: flex;
@@ -33,9 +33,9 @@
 
 .sliderCanvasFeature{
     width: 100%;
-    height: calc(100vh / 2.5);
+    height: calc(100vh / 1.4);
     background: url('../Features/1.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +55,7 @@
 
 .sliderCanvasSitePlans{
     width: 100%;
-    height: calc(100vh / 2.5);
+    height: calc(100vh / 1.4);
     background: url('../Site_Plan/1.jpg');
     background-size: cover;
     display: flex;
@@ -77,7 +77,7 @@
 
 .sliderCanvasFloorPlans{
     width: 100%;
-    height: calc(100vh / 2.5);
+    height: calc(100vh / 1.4);
     background: url('../Floor_Plans/1.jpg');
     background-size: cover;
     display: flex;
@@ -99,7 +99,7 @@
 
 .sliderCanvasSpecs{
     width: 100%;
-    height: calc(100vh / 2.5);
+    height: calc(100vh / 1.4);
     background: url('../Specifications/1.png');
     background-size: cover;
     display: flex;
@@ -121,7 +121,7 @@
 
 .sliderCanvasGallery{
     width: 100%;
-    height: calc(100vh / 2.5);
+    height: calc(100vh / 1.4);
     background: url('../Gallery/2.jpg');
     background-size: cover;
     display: flex;
@@ -138,4 +138,15 @@
     font-weight: 300;
     position: absolute;
     z-index: 23;
+}
+
+
+@media only screen and (max-width:920px){
+    .sliderCanvasGallery,
+    .sliderCanvasSpecs,
+    .sliderCanvasFloorPlans,
+    .sliderCanvas,.sliderCanvasFeature,
+    .sliderCanvasSitePlans{
+        height: calc(100vh /2.5);
+    }
 }

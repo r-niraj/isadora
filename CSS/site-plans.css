@@ -26,14 +26,10 @@ table.spdTable{
     font-weight: 600;
     font-size: 18px;
 }
-.spdTableImg{
-    background-image: url(../Site_Plan/diagram.png);
-    width: 95%;
-    height: 499px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto;
+
+.spdTableImgNew img {
+    width: 100%;
+    border-radius: 10%;
 }
 
 table.spdTable,
@@ -97,5 +93,9 @@ table.spdTable tbody tr:last-child td:first-child{
     }
     .tableDiv{
         border-radius: 30px !important;
+    }
+
+    .spdTableImgNew img {
+        border-radius: 15%;
     }
 }

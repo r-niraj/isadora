@@ -24,7 +24,7 @@ body{
 
 .bannerSection .leftImageSec {
     height: calc(100vh - 92px + 15px);
-    flex-basis: 58%;
+    width: 58%;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
     position: relative;
@@ -61,7 +61,7 @@ body{
 .bannerSection .RightImageSec{
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    width: 42%;
     height: calc(100vh - 92px);
     row-gap: 15px;
     box-sizing: border-box;
